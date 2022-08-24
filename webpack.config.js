@@ -9,8 +9,8 @@ module.exports = {
 
   //결과물(번들)을 반환하는 설정
   output: {
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "dist"),
     filename: "main.js",
-    clean: true
+    clean: true,
   },
 };
